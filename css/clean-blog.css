@@ -369,6 +369,26 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6;
 }
 
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
 footer {
   padding: 50px 0 65px;
 }
