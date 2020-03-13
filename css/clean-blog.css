@@ -221,7 +221,7 @@ img::-moz-selection {
 }
 
 .fullscreen-bg.post-heading.meta a {
-  color: #fff;
+  color: #d41d82;
 }
 
 @media only screen and (min-width: 768px) {
@@ -281,7 +281,7 @@ img::-moz-selection {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #d41d82;
 }
 
 .floating-label-form-group input,
@@ -332,7 +332,7 @@ img::-moz-selection {
 }
 
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #d41d82;
 }
 
 .team-member {
@@ -482,15 +482,62 @@ header .overlay {
 }
 
 .bg-image-full {
-  background: no-repeat center center scroll;
+  background: repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-#logo{
-	position:fixed;
-	top:0;
-	left:0;
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
